@@ -1,0 +1,19 @@
+label {
+  text-align: center;
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+button {
+  background-color: green; /* Green */
+  border: none;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
