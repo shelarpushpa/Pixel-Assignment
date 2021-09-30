@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="t.css">
+</head>
+<body onload="myFunction()">
+<div id="otpform">
+<p id="demo"></p>
+<label>Enter OTP</label><br>
+<input type="text" id="otp" name="otp" maxlength="4" onkeypress="javascript:return isNumber(event)" onblur="checkotp()" ><br>
+ <span id="error"></span><br><br>
+ <!--<button style="color:white" style="background-color:red" type="button" id="vButton" value="Validate" onclick="validate();">validate</button>-->
+<button style="color:white" type="button" id="vButton" value="Validate" onclick="validate();">validate</button>
+<!--<input type="button" id="vButton" name="validate" value="Validate" onclick="validate()" />-->
+</div>
+<span id="success" style="display:none"></span><br>
+<span id="error1" style="display:none"></span><br>
+<script src="t.js"></script>
+</body>
+</html>
